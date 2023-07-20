@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/drawer": "^6.6.3",
+    "@react-navigation/material-bottom-tabs": "^6.2.16",
     "@react-navigation/native": "^6.1.7",
     "expo": "~48.0.18",
     "expo-cli": "^6.3.10",
@@ -19,6 +20,8 @@
     "react-dom": "^18.2.0",
     "react-native": "0.71.8",
     "react-native-ionicons": "^4.6.5",
+    "react-native-paper": "^5.9.1",
+    "react-native-responsive-fontsize": "^0.5.1",
     "react-native-web": "~0.18.11",
     "react-navigation": "^4.4.4"
   },
