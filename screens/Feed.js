@@ -4,8 +4,8 @@ import PostCard from './PostCard'
 import { RFValue } from 'react-native-responsive-fontsize'
 import { FlatList } from 'react-native-web'
 export default class Feed extends React.Component{
-    renderItem = ({item:story})=>{
-        return <PostCard story={story}/>
+    renderItem = ({item:post})=>{
+        return <PostCard post={post} navigation={this.props.navigation}/>
     }
     render(){
         return(

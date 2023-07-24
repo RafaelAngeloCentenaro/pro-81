@@ -15,7 +15,6 @@ export default class PostCard extends Component(){
     }
     render(){
         return(
-            <TouchableOpacity onPress={()=>this.props.navigation.navigate("PostScreen",post=this.props.posts)}>
                 <View>
                     <View>
                         <View>
@@ -43,7 +42,6 @@ export default class PostCard extends Component(){
                         </View>
                     </View>
                 </View>
-            </TouchableOpacity>
             )
         }
     }
